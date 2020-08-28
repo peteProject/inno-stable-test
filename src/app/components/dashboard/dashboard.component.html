@@ -1,7 +1,19 @@
 <div class="p-grid">
   <div class="p-col-12">
     <p-card header="Test Connection">
-      Hier kommt der Inhalt hin!
+      <div class="p-fluid">
+        <div class="p-field p-grid">
+          <label for="it" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">IP-Address</label>
+          <div class="p-col-12 p-md-10">
+            <input [(ngModel)]="ipAddress" type="text" pInputText>
+          </div>
+        </div>
+      </div>
+      <div class="p-grid">
+        <div class="p-col-12">
+          <button pButton label="Send Request" (click)="sendRequest()" style="float: right;" [disabled]="btnDisabled()"></button>
+        </div>
+      </div>
     </p-card>
   </div>
 </div>
