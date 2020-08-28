@@ -1,0 +1,26 @@
+::ng-deep.custom-toolbar {
+    margin-bottom: 20px;
+}
+
+.ui-toolbar-group-left {
+    align-items: center;
+    display: flex;
+
+    i {
+        font-size: 40px;
+        color: green;
+    }
+
+    .app-title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+}
+
+.ui-toolbar-group-right {
+    button {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}
