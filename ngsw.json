@@ -1,0 +1,130 @@
+{
+  "configVersion": 1,
+  "timestamp": 1598878242104,
+  "index": "inno-stable-test/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "inno-stable-test/favicon.ico",
+        "inno-stable-test/index.html",
+        "inno-stable-test/main.3ca985dd355cb7635c26.js",
+        "inno-stable-test/manifest.webmanifest",
+        "inno-stable-test/ngsw-worker.js",
+        "inno-stable-test/polyfills.a4021de53358bb0fec14.js",
+        "inno-stable-test/runtime.e227d1a0e31cbccbf8ec.js",
+        "inno-stable-test/safety-worker.js",
+        "inno-stable-test/styles.7414da36510460e911ed.css",
+        "inno-stable-test/worker-basic.min.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "inno-stable-test/assets/icons/icon-128x128.png",
+        "inno-stable-test/assets/icons/icon-144x144.png",
+        "inno-stable-test/assets/icons/icon-152x152.png",
+        "inno-stable-test/assets/icons/icon-192x192.png",
+        "inno-stable-test/assets/icons/icon-384x384.png",
+        "inno-stable-test/assets/icons/icon-512x512.png",
+        "inno-stable-test/assets/icons/icon-72x72.png",
+        "inno-stable-test/assets/icons/icon-96x96.png",
+        "inno-stable-test/color.6441e63a57ccc5105bad.png",
+        "inno-stable-test/fa-brands-400.1776173e3b1af55eb455.ttf",
+        "inno-stable-test/fa-brands-400.28d8b8fcc41c3b7134ff.woff",
+        "inno-stable-test/fa-brands-400.37913cdf7cb0571dfac0.woff2",
+        "inno-stable-test/fa-brands-400.63b566233f163d538cce.svg",
+        "inno-stable-test/fa-brands-400.bfcc3384b8a317dc5de3.eot",
+        "inno-stable-test/fa-regular-400.0c6f12b9eaa2ad444a6b.eot",
+        "inno-stable-test/fa-regular-400.1b536b782d09dd59dda8.svg",
+        "inno-stable-test/fa-regular-400.c3c2ab4f63b8d9973c78.woff2",
+        "inno-stable-test/fa-regular-400.c9c57c0f1f4eb34dbf57.ttf",
+        "inno-stable-test/fa-regular-400.fcaa6c135683a3fa1b50.woff",
+        "inno-stable-test/fa-solid-900.22aa6d4357cf74671bc4.woff",
+        "inno-stable-test/fa-solid-900.3e2bc2ffd29f01066d23.svg",
+        "inno-stable-test/fa-solid-900.4055b0575d40bfb3c7e8.woff2",
+        "inno-stable-test/fa-solid-900.a480ec972cb6bce30533.ttf",
+        "inno-stable-test/fa-solid-900.dfaa060a451d978c2565.eot",
+        "inno-stable-test/hue.f8505bd4d6f3e3aa435b.png",
+        "inno-stable-test/password-meter.eea288d50533d7995ec1.png",
+        "inno-stable-test/primeicons.42a056b9cc42634d97e2.woff",
+        "inno-stable-test/primeicons.8ba12f803b137699ee74.svg",
+        "inno-stable-test/primeicons.9868d68fa1bf5f4b6119.eot",
+        "inno-stable-test/primeicons.e78e6d8e7dfc3a27e7ee.ttf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "inno-stable-test/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "inno-stable-test/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "inno-stable-test/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "inno-stable-test/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "inno-stable-test/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "inno-stable-test/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "inno-stable-test/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "inno-stable-test/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "inno-stable-test/color.6441e63a57ccc5105bad.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "inno-stable-test/fa-brands-400.1776173e3b1af55eb455.ttf": "29f59b4eecc72052d9110a5d4030a10ad9bf73d7",
+    "inno-stable-test/fa-brands-400.28d8b8fcc41c3b7134ff.woff": "fddb95d7a0f48d2bf90a5ee3095e8264dca18053",
+    "inno-stable-test/fa-brands-400.37913cdf7cb0571dfac0.woff2": "62584b9868428fd75af3fc5ee2f9918dda428be5",
+    "inno-stable-test/fa-brands-400.63b566233f163d538cce.svg": "99dff0739882276ad6c434d73228efc7971b0a66",
+    "inno-stable-test/fa-brands-400.bfcc3384b8a317dc5de3.eot": "40c8f2a0dc154160fde50e0c27f694f12c7b1636",
+    "inno-stable-test/fa-regular-400.0c6f12b9eaa2ad444a6b.eot": "3306178c90d9df939d2a5eabf533ba3650fbe80e",
+    "inno-stable-test/fa-regular-400.1b536b782d09dd59dda8.svg": "51afca56e309df6fdc56b53fa6a7d3ce64826490",
+    "inno-stable-test/fa-regular-400.c3c2ab4f63b8d9973c78.woff2": "5e4d45052f43e55aaad7f14d13280215e39aa45b",
+    "inno-stable-test/fa-regular-400.c9c57c0f1f4eb34dbf57.ttf": "517a3b41c1e01b65898b5f1074434d43a361a54f",
+    "inno-stable-test/fa-regular-400.fcaa6c135683a3fa1b50.woff": "da17a9f1dcae379c8ba20f1089059c202216cba7",
+    "inno-stable-test/fa-solid-900.22aa6d4357cf74671bc4.woff": "f13e252f8a51a5279fd21e26ada0bd2f55bcefd8",
+    "inno-stable-test/fa-solid-900.3e2bc2ffd29f01066d23.svg": "5501fb62e20a89bdd89bf3fa147ca4dbcd2fc67f",
+    "inno-stable-test/fa-solid-900.4055b0575d40bfb3c7e8.woff2": "6290834672aba86d5b6c1c73b30b57c9c53996f7",
+    "inno-stable-test/fa-solid-900.a480ec972cb6bce30533.ttf": "874c650701d0cbfb8f1de48a496dabed3bbf22e6",
+    "inno-stable-test/fa-solid-900.dfaa060a451d978c2565.eot": "96a5637429426764ea9b28bf4d1eb55ae10de57e",
+    "inno-stable-test/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "inno-stable-test/hue.f8505bd4d6f3e3aa435b.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "inno-stable-test/index.html": "f4e8580dfdd8b0a0ab4152b2d9845cce4dfe4e14",
+    "inno-stable-test/main.3ca985dd355cb7635c26.js": "60bb299ce6110e36d43556c1feee7b8ffc02093d",
+    "inno-stable-test/manifest.webmanifest": "53079acdbeac6892e58d6743dff64044c77c634f",
+    "inno-stable-test/ngsw-worker.js": "601253069e8f1d4f717e0bd54332587669d68261",
+    "inno-stable-test/password-meter.eea288d50533d7995ec1.png": "e0e101bd2a1cbda41398b48a4ab1792d89cb7334",
+    "inno-stable-test/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
+    "inno-stable-test/primeicons.42a056b9cc42634d97e2.woff": "bad75c38218870acb430dcddedd31bf56406fce8",
+    "inno-stable-test/primeicons.8ba12f803b137699ee74.svg": "28f5a43e920774603ad0d952d8162a9d78c2076c",
+    "inno-stable-test/primeicons.9868d68fa1bf5f4b6119.eot": "7fad97172f0d641c050e2c12599716a6384a46cb",
+    "inno-stable-test/primeicons.e78e6d8e7dfc3a27e7ee.ttf": "49de863c7cf9ca820ed12f97a1c8af5da53615fa",
+    "inno-stable-test/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "inno-stable-test/safety-worker.js": "f532926317210be6e2679d21748dc44a35389807",
+    "inno-stable-test/styles.7414da36510460e911ed.css": "82cebcc6c18c23d3d1d8de18c0b8251bd6b82936",
+    "inno-stable-test/worker-basic.min.js": "f532926317210be6e2679d21748dc44a35389807"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
