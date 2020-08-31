@@ -9,18 +9,20 @@ import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { LayoutModule } from '../app/layout/layout.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    SharedModule,
+    AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule,
     ComponentsModule,
     HttpClientModule,
+    LayoutModule,
+    SharedModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
