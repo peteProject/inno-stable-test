@@ -1,0 +1,64 @@
+@import './styles/share.scss';
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+
+    .navigation-container {
+        display: none;
+        height: calc(100% - 70px);
+        left: 0;
+        position: fixed;
+        top: 70px;
+        width: 250px;
+        background-color: green;
+    }
+
+    .content-container {
+        margin-top: 8px;
+
+        flex: 1;
+    }
+
+    @include inno-stable-layout-tablet {
+        .navigation-container {
+            display: block;
+        }
+
+        .content-container {
+            margin-left: 8px;
+        }
+    }
+
+}
+
+.inno-stable-main-content {
+    margin-left: 250px;
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    @include inno-stable-layout-tablet {
+        margin-left: 0;
+    }
+}
+
+.inno-stable-side-bar {
+    background-color: green;
+    border-right: 1px solid var(--surface-d);
+    height: calc(100% - 70px);
+    left: 0;
+    overflow: auto;
+    padding: 1rem;
+    position: fixed;
+    top: 70px;
+    transition: transform .4s cubic-bezier(.05,.74,.2,.99);
+    width: 250px;
+
+    @include inno-stable-layout-tablet {
+        height: 100%;
+        top: 0;
+        transform: translateX(-100%);
+        z-index: 999;
+    }
+}

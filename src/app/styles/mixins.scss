@@ -1,0 +1,17 @@
+@mixin inno-stable-layout-mobile{
+    @media screen and (max-width: (599px)) {
+        @content;
+    }
+}
+
+@mixin inno-stable-layout-tablet{
+    @media screen and (max-width: (959px)) {
+        @content;
+    }
+}
+
+@mixin inno-stable-layout-screen {
+    @media screen and (max-width: (1279px)) {
+        @content;
+    }
+}

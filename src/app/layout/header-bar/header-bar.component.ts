@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderBarComponent implements OnInit {
 
+  public displaySideBar = false;
+
   constructor() { }
 
   ngOnInit() {
+
+  }
+
+  toggleNavBar(): void {
+    this.displaySideBar = !this.displaySideBar;
   }
 
 }

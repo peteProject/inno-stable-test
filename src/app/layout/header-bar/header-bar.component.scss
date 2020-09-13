@@ -1,34 +1,93 @@
-::ng-deep.custom-toolbar {
-    margin-bottom: 20px;
-    //height: 60px;
+@import '../../styles/share.scss';
+
+
+.header-bar {
+    background-color: red;
+    height: 71px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 997;
+    box-shadow: 0 0 4px rgba(0,0,0,.25);
+    border-bottom: 1px solid var(--surface-d);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 35px;
 
     .app-title {
         font-size: 24px;
         font-weight: bold;
     }
 
-    .status-container {
+    .setting-container {
         align-items: center;
+        height: 100%;
+        margin: 0 0 0 auto;
+        display: -ms-flexbox;
         display: flex;
-        em {
-            margin-right: 5px;
-            color: green;
+
+        .nav-setting-button {
+            cursor: pointer;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            width: 70px;
+
+            .setting-btn {
+                cursor: pointer;
+                font-size: 32px;
+                margin-top: 19px;
+            }
+
+            &:hover {
+                background-color: grey;
+            }
+        }
+
+        
+
+        .status-container {
+            align-items: center;
+            display: flex;
+            margin-left: 10px;
+            em {
+                margin-right: 5px;
+                color: green;
+            }
         }
     }
+
+
+
+    .nav-menu-button {
+        cursor: pointer;
+        display: none;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        width: 70px;
+        em {
+            font-size: 32px;
+            margin-top: 19px;
+        }
+
+        &:hover {
+            background-color: grey;
+        }
+    }
+
+    @include inno-stable-layout-tablet {
+        padding-left: 0;
+        .nav-menu-button {
+            display: block;
+        }
+    }
+
 }
 
-.ui-toolbar-group-left {
-    align-items: center;
-    display: flex;
-
-    i {
-        font-size: 40px;
-        color: green;
-    }
-
-    .app-title {
-        font-size: 30px;
-        font-weight: bold;
-        margin-left: 20px;
-    }
+::ng-deep .custom-sidebar {
+    width: 250px !important;
 }

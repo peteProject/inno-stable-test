@@ -1,11 +1,16 @@
-<app-header-bar>
-</app-header-bar>
-
-<app-nav-bar>
-</app-nav-bar>
-
-<div class="p-grid">
-    <div class="p-col-12">
-        <router-outlet></router-outlet>
+<div class="inno-stable-layout-wrapper">
+    <app-header-bar></app-header-bar> 
+    <div class="inno-stable-side-bar">
+        <app-nav-bar></app-nav-bar>
     </div>
 </div>
+
+<div class="inno-stable-main-content">
+    <router-outlet></router-outlet>
+</div>
+
+
+
+
+
+

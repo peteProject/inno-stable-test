@@ -7,13 +7,15 @@ import {InputTextModule} from 'primeng/inputtext';
 import {TableModule} from 'primeng/table';
 import {DataViewModule} from 'primeng/dataview';
 import {DialogModule} from 'primeng/dialog';
+import {SidebarModule} from 'primeng/sidebar';
 
 export const primeNgModules = [
     ButtonModule,
     CardModule,
     CommonModule,
     ToolbarModule,
-    InputTextModule
+    InputTextModule,
+    SidebarModule
 ];
 
 @NgModule({

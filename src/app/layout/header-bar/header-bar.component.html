@@ -1,12 +1,21 @@
-<p-toolbar [styleClass]="'custom-toolbar'">
-  <div class="p-toolbar-group-left">
-      <em class="fas fa-bars"></em>
+<div class="header-bar">
+  <div class="nav-menu-button">
+    <em class="fas fa-bars nav-menu" (click)="toggleNavBar()"></em>
   </div>
-  <div class="app-title">InnoStable</div>
-  <div class="p-toolbar-group-right">
+  <div class="logo-container">
+    InnoStable
+  </div>
+  <div class="setting-container">
+    <div class="nav-setting-button">
+      <em class="fas fa-cog setting-btn"></em>
+    </div>
     <div class="status-container">
       <em class="fas fa-circle"></em>
       <div>Connected</div>
     </div>
   </div>
-</p-toolbar>
+</div>
+
+<p-sidebar [(visible)]="displaySideBar" [showCloseIcon]="false" [styleClass]="'custom-sidebar'">
+  <app-nav-bar></app-nav-bar>
+</p-sidebar>
